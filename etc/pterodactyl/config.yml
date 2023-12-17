@@ -1,0 +1,18 @@
+debug: false
+uuid: 2e69558a-59ab-4a9f-8b7e-fbe81c3c92f3
+token_id: C9SnQGQqBWOHke2B
+token: eHMxRqE8ZJIEZuuGKUMKvDI7Ikqh4vIpDQlEqrYGx1qhSkHXrTvHWL5tv4mx2hpb
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/polished-next-piranha.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/polished-next-piranha.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://cautious-telegram-x55xq4xvqg7gc6wrv-80.app.github.dev'
